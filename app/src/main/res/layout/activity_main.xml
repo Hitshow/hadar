@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.user.hadar.MainActivity">
+
+
+    <Button
+        android:id="@+id/btncanc"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Cancel the number"
+        tools:layout_editor_absoluteX="148dp"
+        android:onClick="Cancel"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+
+    <TextView
+        android:id="@+id/texts"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number not found" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/numbcret"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="click for number"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="286dp" />
+</LinearLayout>
